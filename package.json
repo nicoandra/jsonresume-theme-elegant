@@ -4,8 +4,7 @@
   "description": "Elegant theme for jsonresume",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "setup": "npm install -g grunt pug-cli; npm install"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
