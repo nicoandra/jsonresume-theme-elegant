@@ -956,10 +956,14 @@ body {
     margin-left: 20px;
   }
 }
-@media (max-width: 768px) {
-  .quote {
-    font-size: inherit;
-  }
+.quote {
+  font-size: inherit;
+}
+blockquote.quote {
+  margin-top: 5px;
+  margin-right: 0px;
+  margin-bottom: 15px;
+  margin-left: 0px;
 }
 .icon-meetup .path2:before {
   margin-left: 0;
