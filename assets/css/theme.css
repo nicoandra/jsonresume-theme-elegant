@@ -1000,6 +1000,6 @@ blockquote.quote {
     page-break-before: always;
   }
   .no-print {
-    display: none;
+    display: none !important;
   }
 }
