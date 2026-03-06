@@ -1,15 +1,12 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?z1lat9');
-  src:  url('fonts/icomoon.eot?z1lat9#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?z1lat9') format('truetype'),
-    url('fonts/icomoon.woff?z1lat9') format('woff'),
-    url('fonts/icomoon.svg?z1lat9#icomoon') format('svg');
+  src: url('fonts/icomoon.eot?z1lat9');
+  src: url('fonts/icomoon.eot?z1lat9#iefix') format('embedded-opentype'), url('fonts/icomoon.ttf?z1lat9') format('truetype'), url('fonts/icomoon.woff?z1lat9') format('woff'), url('fonts/icomoon.svg?z1lat9#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
-
-[class^="icon-"], [class*=" icon-"] {
+[class^="icon-"],
+[class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: none;
@@ -18,64 +15,62 @@
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 .icon-gitlab .path1:before {
   content: "\e906";
-  color: rgb(252, 109, 38);
+  color: #fc6d26;
 }
 .icon-gitlab .path2:before {
   content: "\e907";
   margin-left: -1em;
-  color: rgb(226, 67, 41);
+  color: #e24329;
 }
 .icon-gitlab .path3:before {
   content: "\e908";
   margin-left: -1em;
-  color: rgb(252, 109, 38);
+  color: #fc6d26;
 }
 .icon-gitlab .path4:before {
   content: "\e909";
   margin-left: -1em;
-  color: rgb(252, 163, 38);
+  color: #fca326;
 }
 .icon-gitlab .path5:before {
   content: "\e90a";
   margin-left: -1em;
-  color: rgb(226, 67, 41);
+  color: #e24329;
 }
 .icon-gitlab .path6:before {
   content: "\e90b";
   margin-left: -1em;
-  color: rgb(252, 109, 38);
+  color: #fc6d26;
 }
 .icon-gitlab .path7:before {
   content: "\e90c";
   margin-left: -1em;
-  color: rgb(252, 163, 38);
+  color: #fca326;
 }
 .icon-gitlab .path8:before {
   content: "\e90d";
   margin-left: -1em;
-  color: rgb(226, 67, 41);
+  color: #e24329;
 }
 .icon-meetup .path1:before {
   content: "\e901";
-  color: rgb(255, 255, 255);
+  color: #ffffff;
 }
 .icon-meetup .path2:before {
   content: "\e902";
   margin-left: -1.5em;
-  color: rgb(240, 1, 1);
+  color: #f00101;
 }
 .icon-meetup .path3:before {
   content: "\e903";
   margin-left: -1.5em;
-  color: rgb(3, 3, 3);
+  color: #030303;
 }
 .icon-blogger:before {
   content: "\e900";
@@ -238,4 +233,7 @@
 }
 .icon-board:before {
   content: "\e608";
+}
+.icon-pdf:before {
+  content: "\f1c1";
 }

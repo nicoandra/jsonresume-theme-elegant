@@ -58,6 +58,11 @@ section.col-md-3.card-wrapper.profile-card-wrapper.affix
           a(href=resume.basics.website, target="_blank")= resume.basics.website
       if resume.basics.languages
         +profile_card_detail('icon-language', resume.basics.languages, null, 'Languages I speak')
+      
+      if resume.basics.pdf_link
+        span.no-print
+          +profile_card_detail("icon-link", "Pichu", itemprop="info", icon_title="My PDF Resume")
+            a.link-disguise(href=resume.basics.pdf_link)= "Download PDF"
 
     hr
 

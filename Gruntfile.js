@@ -8,20 +8,21 @@ module.exports = function(grunt) {
               paths: ["assets"]
             },
             files: {
-              "assets/css/theme.css": "assets/less/theme.less"
+              "assets/css/theme.css": "assets/less/theme.less",
+              "assets/icomoon/style.css": "assets/icomoon/style.less"
             }
           }
         },
         watch: {
             styles: {
-                files: ['assets/less/**/*.less'],
+                files: ['assets/**/*.less'],
                 tasks: ['less'],
                 options: {
                     nospawn: true
                 }
             },
             pug: {
-                files: ['index.pug'],
+                files: ['index.pug', 'pug/**/*.pug'],
                 tasks: ['exec:compile_pug'],
                 options: {
                     nospawn: true
