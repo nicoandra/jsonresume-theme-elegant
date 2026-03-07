@@ -64,9 +64,9 @@ section.col-md-3.card-wrapper.profile-card-wrapper.affix
           +profile_card_detail("icon-link", "Pichu", itemprop="info", icon_title="My PDF Resume")
             a.link-disguise(href=resume.basics.pdf_link)= "Download PDF"
 
-    hr
+    hr.no-print
 
-    .social-links.text-center
+    .no-print.social-links.text-center
       div
         +render_links(resume.basics.top_five_profiles)
 

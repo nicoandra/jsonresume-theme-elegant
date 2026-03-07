@@ -970,6 +970,7 @@ blockquote.quote {
   }
   .profile-card {
     text-align: center;
+    min-height: fit-content;
   }
   .profile-pic {
     display: inline-block;
