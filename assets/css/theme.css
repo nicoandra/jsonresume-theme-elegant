@@ -1003,4 +1003,7 @@ blockquote.quote {
   .no-print {
     display: none !important;
   }
+  .background-details .detail .icon {
+    padding: 10px 10px;
+  }
 }
