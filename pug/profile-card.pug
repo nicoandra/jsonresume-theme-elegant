@@ -53,12 +53,18 @@ section.col-md-3.card-wrapper.profile-card-wrapper.affix
       if resume.basics.email
         +profile_card_detail("icon-mail")
           a.link-disguise(href="mailto:" + resume.basics.email, itemprop="email")= resume.basics.email
+
       if resume.basics.website
         +profile_card_detail("icon-link")
           a(href=resume.basics.website, target="_blank")= resume.basics.website
+
+      each profile in profiles
+        if profile.network.toLowerCase() == 'website'
+          +profile_card_detail("icon-link")
+            a(href=profile.url, target="_blank")= profile.username
+
       if resume.basics.languages
         +profile_card_detail('icon-language', resume.basics.languages, null, 'Languages I speak')
-      
       if resume.basics.pdf_link
         span.no-print
           +profile_card_detail("icon-link", "Pichu", itemprop="info", icon_title="My PDF Resume")
